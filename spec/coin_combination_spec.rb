@@ -1,6 +1,6 @@
 require ('rspec')
 require ('pry')
-require ('coin_combination')
+require ('./lib/coin_combination')
 
 describe('coin_combination') do
   it('divides change by 25 cents') do
